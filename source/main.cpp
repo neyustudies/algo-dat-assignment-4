@@ -28,8 +28,8 @@ int main() {
   // output
   std::cout << p.size() << " random points between min("
             << minX << "," << minY << ") and max(" 
-            << maxX << "," << maxY << ") have been generated...\n"
-            << "Sorting and searching for the two closest Points...\n";
+            << maxX << "," << maxY << ") have been generated..."
+            << "\nSorting and searching for the two closest Points...\n";
   std::cout << "\nDivide and Conquer algorithm:";
   std::cout << "\nClosest points: " << dac.first << " and " << dac.second
             << "\nDistance: " << Points::distance(dac.first, dac.second);

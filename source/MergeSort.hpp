@@ -8,8 +8,7 @@
  * @brief Implement the sorting algorithm Merge Sort, which you will 
  * have to use in the algorithm for solving Closest-Points
  * ---
- * Based on divide and conquer algorithm with worst-case time 
- * complexity being Ο(n log n) it very efficient.
+ * Based on divide and conquer algorithm Ο(n log n)
  * Merge sort first divides the array into equal halves and then 
  * combines them in a sorted manner
  */
@@ -48,7 +47,7 @@
     std::move(std::make_move_iterator(it.begin()),
               std::make_move_iterator(it.end()), first);
   }
-                  
+
 }
 
  
