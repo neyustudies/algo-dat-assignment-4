@@ -34,7 +34,7 @@ int main() {
   std::cout << "\nClosest points: " << dac.first << " and " << dac.second
             << "\nDistance: " << Points::distance(dac.first, dac.second);
   std::cout << "\nComparing to result of naive algorithm:";
-  std::cout << "\nClosest pair: " << naive.first << " and " << naive.second
+  std::cout << "\nClosest points: " << naive.first << " and " << naive.second
             << "\nDistance: " << Points::distance(naive.first, naive.second) << std::endl;
 
 
